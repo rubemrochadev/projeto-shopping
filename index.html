@@ -23,16 +23,46 @@
 
 <body class="">
 
-            <header class="flex items-center justify-between pt-[35px] px-[120px]">
+    <header class="flex items-center justify-between p-4 px-4 md:pt-[35px] md:px-[120px] xl:px-[120px]">
         <img src="imgs/logo.png" alt="">
-        <nav class="flex items-center gap-[65px]">
+        <nav class="hidden lg:flex items-center lg:gap-[35px] xl:gap-[65px]">
             <a href="">Catalogue</a>
             <a href="">Fashion</a>
             <a href="">Favorite</a>
             <a href="">Lifestyle</a>
-            <a href="" class="leading-[62px] bg-black text-white px-[22px] rounded block hover:bg-amarelo hover:text-black duration-200">Sign up</a>
+            <a href=""
+                class="leading-[62px] bg-black text-white px-[22px] rounded block hover:bg-amarelo hover:text-black duration-200">Sign
+                up</a>
         </nav>
+
+        <div class="w-[50px] h-[50px] bg-black rounded-full fixed  right-4 bottom-8 flex justify-center items-center lg:hidden">
+            <box-icon name='menu' class="fill-white"></box-icon>
+        </div>
+
     </header>
+
+    <main>
+        <section id="banner" class="px-4 lg:px-[60px] xl:px-[120px] pt-4 lg:pt-[30px] xl:pt-[50px]">
+            <a href="">
+                <img src="imgs/banner.png" alt="" class="w-full">
+            </a>
+        </section>
+
+        <section id="marcas" class="bg-amarelo mt-4 lg:mt-[30px] xl:mt-[60px] px-4 lg:px-[60px] xl:px-[120px] py-4 lg:py-[26px] xl:py-[40px] overflow-x-auto">
+            <div class="*:mix-blend-multiply *:max-h-[40px] lg:*:max-h-none flex gap-[30px] items-center lg:grid lg:grid-cols-6 xl:gap-[60px]">
+                <img src="imgs/marca1.png" alt="H&M">
+                <img src="imgs/marca2.png" alt="Obey">
+                <img src="imgs/marca3.png" alt="Shopify">
+                <img src="imgs/marca4.png" alt="Lacoste">
+                <img src="imgs/marca5.png" alt="Levi's">
+                <img src="imgs/marca6.png" alt="Amazon">
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
 
 </body>
 
